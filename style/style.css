@@ -1,0 +1,94 @@
+html, body{
+	margin: 0;
+	padding: 0;
+	background-color: hsl(185, 75%, 39%);
+	font-family: "Kumbh Sans", sans-serif;
+	font-size: 18px;
+	text-align: -webkit-center;
+	text-align: center;
+	background-color: #19a2ae;
+}
+.bubbles{
+	display: flex;
+}
+.bubble-top{
+	position: fixed;
+	overflow: hidden;
+	bottom: 50%;
+	right: 50%;
+}
+.bubble-bottom{
+	position: fixed;
+	overflow: hidden;
+	top: 50%;
+	left: 50%;
+}
+.box1{
+	overflow: hidden;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	box-shadow: 0 0 10em #000;
+	height: 375px;
+	width: 350px;
+	border-radius: 5%;
+	background-color: #fff;
+	text-align: center;
+	-webkit-transform: translate(-50%, -50%);
+				transform: translate(-50%, -50%);
+}
+.box2{
+	height: 140px;
+	background-image: url("../images/bg-pattern-card.svg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+.profile{
+	border: 5px solid #fff;
+	border-radius: 100%;
+	position: relative;
+}
+.box3{
+	position: relative;
+	top: -50px;
+}
+.box4{
+	height: 145px;
+	position: relative;
+	top: -50px;
+}
+img.profile{
+	height: 90px;
+	width: 90px;
+}
+.big{
+	font-weight: 700;
+}
+.small{
+	font-size: 13px;
+	font-weight: 400;
+	color: hsl(229, 23%, 23%);
+}
+.box5{
+	height: 89px;
+	border-top: solid 1px #a6d8dd;
+}
+.box6{
+	display: inline-block;
+	margin: 0 25px;
+	letter-spacing: 1px;
+}
+.attribution{
+	font-size: 1vw;
+	text-align: center;
+	position: absolute;
+	bottom: 0;
+}
+.attribution a{
+	color: hsl(228, 45%, 44%);
+}
+@media only screen and (device-min-width: 375px){
+	.box1{
+		width: 90vw;
+	}
+}
