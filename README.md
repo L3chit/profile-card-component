@@ -1,3 +1,6 @@
+# Live preview
+https://l3chit.github.io/profile-card-component/
+
 # Frontend Mentor - Profile card component
 
 ![Design preview for the Profile card component coding challenge](./design/desktop-preview.jpg)
