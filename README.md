@@ -1,5 +1,5 @@
-# Live preview
-https://l3chit.github.io/profile-card-component/
+# [Live preview (click)](https://l3chit.github.io/profile-card-component/) 
+
 
 # Frontend Mentor - Profile card component
 
