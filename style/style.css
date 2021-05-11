@@ -78,16 +78,7 @@ img.profile{
 	margin: 0 25px;
 	letter-spacing: 1px;
 }
-.attribution{
-	font-size: 1vw;
-	text-align: center;
-	position: absolute;
-	bottom: 0;
-}
-.attribution a{
-	color: hsl(228, 45%, 44%);
-}
-@media only screen and (device-min-width: 375px){
+@media only screen and (max-device-width: 600px){
 	.box1{
 		width: 90vw;
 	}
